@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.InformationFragment">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/news"
+        android:background="#0D1061"
+        tools:ignore="ExtraText">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="16dp"
+            android:text="News &amp; Notifications"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.386"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+        android:id="@+id/textDashBoard"
+        android:layout_width="400dp"
+        android:layout_height="268dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/shap_payment_list"
+        android:padding="15dp"
+        android:text="សេចក្តីជូនដំណឹង"
+        android:textAlignment="center"
+        android:textColor="@color/text_color_primary"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+        <TextView
+            android:id="@+id/textNews"
+            android:layout_width="386dp"
+            android:layout_height="183dp"
+            android:text="គណៈគ្រប់គ្រងសាកលវិទ្យាល័យភូមិន្ទភ្នំពេញ សូមជម្រាបជូនដំណឹងដល់សាស្ត្រាចារ្យ និងនិស្សិតទាំងអស់ឱ្យបានជ្រាបថា សាកលវិទ្យាល័យភូមិន្ទភ្នំពេញនឹងយកថ្នាក់រៀនធ្វើជាមណ្ឌលប្រឡងសម្រាប់ការប្រឡងថ្នាក់ជាតិចូលរៀនថ្នាក់ឆ្នាំសិក្សាមូលដ្ឋាន សម្រាប់កម្រិតបរិញ្ញាបត្រនៅតាមគ្រឹះស្ថានបណ្តុះបណ្តាលវិស័យសុខាភិបាល សម្រាប់ឆ្នាំសិក្សា២០២៤-២០២៥ ដែលនឹងប្រព្រឹត្តទៅចាប់ពីថ្ងៃទី១-២ ខែមីនា ឆ្នាំ២០២៥ នៅសាកលវិទ្យាល័យភូមិន្ទភ្នំពេញ។ ដូច្នេះសាស្ត្រាចារ្យ និងនិស្សិតទាំងអស់ត្រូវបានឈប់សម្រាកចាប់ពីវេនយប់ថ្ងៃសុក្រ ទី២៨ ខែកុម្ភៈ រហូតដល់ថ្ងៃអាទិត្យ ទី២ ខែមីនា ឆ្នាំ២០២៥។"
+            android:textSize="15dp"
+            android:fontFamily="@font/font_khmer"
+            android:textStyle="italic"
+            android:textColor="@color/text_color_primary"
+            app:layout_constraintBottom_toBottomOf="@+id/textDashBoard"
+            app:layout_constraintEnd_toEndOf="@+id/textDashBoard"
+            app:layout_constraintStart_toStartOf="@+id/textDashBoard"
+            app:layout_constraintTop_toTopOf="@+id/textDashBoard"
+            app:layout_constraintVertical_bias="0.545" />
+
+        <TextView
+            android:id="@+id/textDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="01/03/2025"
+            android:textColor="@color/text_color_primary"
+            app:layout_constraintBottom_toBottomOf="@+id/textDashBoard"
+            app:layout_constraintEnd_toEndOf="@+id/textDashBoard"
+            app:layout_constraintHorizontal_bias="0.9"
+            app:layout_constraintStart_toStartOf="@+id/textDashBoard"
+            app:layout_constraintTop_toBottomOf="@+id/textNews"
+            app:layout_constraintVertical_bias="0.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</FrameLayout>

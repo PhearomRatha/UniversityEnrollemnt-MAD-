@@ -9,19 +9,22 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.ppy3_application.R;
+import com.example.ppy3_application.databinding.FragmentMyClassBinding;
 
 
 public class MyClassFragment extends Fragment {
 
+    FragmentMyClassBinding binding;
+
 
     public MyClassFragment() {
-        // Required empty public constructor
+        super(R.layout.fragment_my_class);
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_my_class, container, false);
+        binding = FragmentMyClassBinding.inflate(getLayoutInflater());
+        return binding.getRoot();
     }
 }
