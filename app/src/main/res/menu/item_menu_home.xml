@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/my_class"
+        android:icon="@drawable/menu1"
+        android:title="@string/title_my_class"
+        android:enabled="true"
+
+        />
+    <item android:id="@+id/enrollments"
+        android:icon="@drawable/menu2"
+        android:title="@string/title_Enrollment"
+        android:enabled="true"
+        />
+    <item android:id="@+id/news"
+        android:icon="@drawable/menu3"
+        android:title="@string/title_News"
+        android:enabled="true"
+        />
+    <item android:id="@+id/upload_card"
+        android:icon="@drawable/menu4"
+        android:title="@string/title_Upload_a_student_card"
+        android:enabled="true"
+        />
+    <item android:id="@+id/my_attendance"
+        android:icon="@drawable/menu5"
+        android:title="@string/title_My_Attendance"
+        android:enabled="true"
+        />
+    <item android:id="@+id/my_score"
+        android:icon="@drawable/menu6"
+        android:title="@string/title_my_score"
+        android:enabled="true"
+        />
+
+
+</menu>

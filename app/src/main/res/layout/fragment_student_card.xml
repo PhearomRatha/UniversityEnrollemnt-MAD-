@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.StudentCardFragment">
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/uic"
+        android:background="#0D1061"
+        tools:ignore="ExtraText">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="100dp"
+            android:text="upload a students card"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textBoard"
+            android:layout_width="363dp"
+            android:layout_height="209dp"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/shap_payment_list"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <ImageView
+            android:id="@+id/imageInput"
+            android:layout_width="98dp"
+            android:layout_height="75dp"
+            app:layout_constraintBottom_toBottomOf="@+id/textBoard"
+            app:layout_constraintEnd_toEndOf="@+id/textBoard"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="@+id/textBoard"
+            app:layout_constraintTop_toTopOf="@+id/textBoard"
+            app:layout_constraintVertical_bias="0.2"
+            app:srcCompat="@drawable/upload_icon" />
+
+        <TextView
+            android:id="@+id/textUIC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Upload ID Card"
+            android:textColor="@color/text_color_primary"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="@+id/textBoard"
+            app:layout_constraintEnd_toEndOf="@+id/imageInput"
+            app:layout_constraintStart_toStartOf="@+id/imageInput"
+            app:layout_constraintTop_toBottomOf="@+id/imageInput"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Brower"
+            app:layout_constraintBottom_toBottomOf="@+id/textBoard"
+            app:layout_constraintEnd_toEndOf="@+id/textUIC"
+            app:layout_constraintStart_toStartOf="@+id/textUIC"
+            app:layout_constraintTop_toBottomOf="@+id/textUIC"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>
