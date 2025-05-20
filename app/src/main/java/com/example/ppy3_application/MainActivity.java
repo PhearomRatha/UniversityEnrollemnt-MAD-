@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        binding.profileBtn.setOnClickListener(v -> {
+        binding.GropLogo.setOnClickListener(v -> {
             Intent intent =new Intent(this,SettingActivity.class);
             startActivity(intent);
         });
