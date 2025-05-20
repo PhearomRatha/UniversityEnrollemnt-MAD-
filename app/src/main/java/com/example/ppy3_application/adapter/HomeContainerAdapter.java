@@ -19,7 +19,6 @@ public class HomeContainerAdapter extends RecyclerView.Adapter<HomeContainerAdap
 
     public HomeContainerAdapter(){
         this.homeItemModels =new ArrayList<>();
-
     }
 
     @NonNull
